@@ -1,8 +1,5 @@
 from piston.steem import Steem
 import time
-from piston.post import Post
-import os
-import json
 
 steem = Steem(wif = "private key here")
 tags = ["introduction", "introduceyourself", "introducemyself"]
